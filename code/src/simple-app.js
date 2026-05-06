@@ -1,8 +1,8 @@
 const http = require('http');
 const axios = require('axios');
 
-const AWS_ACCESS_KEY_ID = ENVKEY
-const AWS_SECRET_ACCESS_KEY = ENVPWD
+const AWS_ACCESS_KEY_ID = process.env.AWS_ACCESS_KEY_ID
+const AWS_SECRET_ACCESS_KEY = process.env.AWS_SECRET_ACCESS_KEY
 
 const PORT = process.env.PORT || 3000;
 
